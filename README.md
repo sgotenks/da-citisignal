@@ -6,13 +6,13 @@ https://experienceleague.adobe.com/developer/commerce/storefront/
 
 ## Environments - Doc-based
 
-- Preview: https://main--citisignal--aabsites.aem.page/
-- Live: https://main--citisignal--aabsites.aem.live/
+- Preview: https://main--da-citisignal--adobedevxsc.aem.page/
+- Live: https://main--da-citisignal--adobedevxsc.aem.live/
 
 ## Environments - AEM UE + Crosswalk
 
-- Preview: https://main--citisignal--aabsites.ue.da.page/
-- Live: https://main--citisignal--aabsites.ue.da.live/
+- Preview: https://main--da-citisignal--adobedevxsc.ue.da.page/
+- Live: https://main--da-citisignal--adobedevxsc.ue.da.live/
 
 ## Pre-requisites
 
@@ -56,7 +56,7 @@ npm run lint
 1. Add your Adobe Commerce SaaS configuration in the `configs.xlsx` sheet in your content repository.
 1. Install all dependencies using `npm i`.
 1. Start AEM Proxy: `npm run up` (opens your browser at `http://localhost:3000`)
-1. Open the `citisignal` directory in your favourite IDE and start coding :)
+1. Open the `da-citisignal` directory in your favourite IDE and start coding :)
 
 ## Changelog
 
