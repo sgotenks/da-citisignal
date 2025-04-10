@@ -1,0 +1,15 @@
+[
+  {
+    "id": "main",
+    "components": ["section"]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "hero",
+      "teaser",
+      "product-details"
+    ]
+  }
+]

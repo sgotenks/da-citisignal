@@ -1,0 +1,10 @@
+/* stylelint-disable */
+.dropin-design .cart-mini-cart__products{
+  padding-bottom: 0 !important;
+}
+
+.dropin-design.commerce-mini-cart .cart-cart-summary-list__heading .dropin-divider {
+  max-width: 88px;
+  width: 100%;
+  border-top: 2px solid var(--primary-color);
+}

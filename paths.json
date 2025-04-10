@@ -1,0 +1,19 @@
+{
+    "mappings": [
+      "/content/citisignal-ue/:/",
+      "/content/citisignal-ue/configuration:/.helix/config.json",
+      "/content/citisignal-ue/metadata:/metadata.json",
+      "/content/citisignal-ue/configs:/configs.json",
+      "/content/citisignal-ue/configs-stage:/configs-stage.json",
+      "/content/citisignal-ue/configs-dev:/configs-dev.json",
+      "/content/citisignal-ue/redirects:/redirects.json",
+      "/content/citisignal-ue/placeholders:/placeholders.json",
+      "/content/citisignal-ue/products/recommended-products:/products/recommended-products.json",
+      "/content/citisignal-ue/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/dam/citisignal/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/citisignal-ue",
+      "/content/dam/citisignal/images/products/"
+    ]
+}

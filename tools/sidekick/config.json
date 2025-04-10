@@ -1,0 +1,29 @@
+{
+  "project": "CitiSignal",
+  "plugins": [
+    {
+      "id": "picker",
+      "title": "Commerce Picker",
+      "environments": ["edit"],
+      "daLibrary": true,
+      "path": "/tools/da/picker/dist/src/index.html",
+      "icon": "https://main--citisignal--aabsites.aem.live/images/sidekick-icons/media_1404d03ca91fbb64cbec38601beb4c110bd76766f.png"
+    },
+    {
+      "id": "segments",
+      "title": "Segmentation Picker",
+      "environments": ["edit"],
+      "daLibrary": true,
+      "path": "/tools/da/segments/dist/src/index.html",
+      "icon": "https://main--citisignal--aabsites.aem.live/images/sidekick-icons/media_1404d03ca91fbb64cbec38601beb4c110bd76766f.png"
+    },
+    {
+      "id": "aem-experimentation",
+      "titleI18n": {
+        "en": "Experimentation"
+      },
+      "environments": ["any"],
+      "event": "experimentation"
+    }
+  ]
+}
