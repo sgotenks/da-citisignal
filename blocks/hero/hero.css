@@ -6,7 +6,7 @@ main .hero-container > div {
 /* Typography Styles */
 .hero h1 {
   /* font-family: "Open Sans"; */
-  font-size: 36px;
+  /* font-size: 36px; */
   font-weight: 800;
   line-height: 45px;
 }
@@ -45,60 +45,20 @@ main .hero-container > div {
   padding: 1.5rem 10rem;
 }
 
-.hero.small h1 {
-  font-size: 24px;
-  line-height: 40px;
-}
-
 .hero.small {
   min-height: 180px;
   padding: 1.5rem 10rem;
-}
+} 
 
-.hero > div:nth-child(2),
-.hero > div:nth-child(3) {
-  flex: 1 1 50%;
-}
-
-.hero > div:nth-child(2) > div,
-.hero > div:nth-child(3) > div {
+.hero > .overlay {
   padding: 2rem;
   box-sizing: border-box;
+  width: 100%;
 }
 
-.hero div:nth-child(2) > div {
+.hero > .overlay > div {
   width: fit-content;
-  max-width: 360px;
-}
-
-.hero div:nth-child(2) > div a {
-  color: inherit;
-}
-
-.hero div:nth-child(3) > div {
-  width: 65%;
-  margin-left: auto;
-}
-
-.hero.small > div:nth-child(2),
-.hero.small > div:nth-child(3) {
-  padding-top: 0;
-}
-
-.hero.small p.button-container {
-  margin-bottom: 0;
-}
-
-.hero.small p {
-  margin: 1rem 0;
-}
-
-.hero div:nth-child(3) p:first-of-type {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0.56px;
-  padding-right: 25%;
+  max-width: 50%;
 }
 
 /* overlay */
@@ -245,21 +205,13 @@ main .hero-container > div {
     padding-top: 0;
   }
 
-  .hero div:nth-child(2) > div {
+  .hero .overlay > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-  }
-
-  .hero div:nth-child(3) > div {
-    width: 100%;
-    margin-left: unset;
-  }
-
-  .hero div:nth-child(3) > div p.button-container a {
-    margin: 0 auto;
-  }
-
-  .hero div:nth-child(3) p:first-of-type {
-    padding-right: 0;
+    max-width: 100%;
   }
 }
 
