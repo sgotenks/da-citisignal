@@ -58,7 +58,7 @@ main .hero-container > div {
 
 .hero > .overlay > div {
   width: fit-content;
-  max-width: 50%;
+  max-width: 65%;
 }
 
 /* overlay */
