@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: https://content.da.live/AdobeDevXSC/da-citisignal/
+    url: https://content.da.live/sgotenks/da-citisignal/
     type: markup
 
 folders:
