@@ -158,6 +158,17 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
     background-color: #fff;
 }
 
+.teaser-lavazza > div:not(.teaser-img-col) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.teaser-lavazza{
+    max-height: inherit;
+    position: relative;
+}
+
 @media (width <= 900px) {
   .teaser-lavazza {
     flex-direction: column-reverse;
