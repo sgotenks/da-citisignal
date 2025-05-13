@@ -62,8 +62,12 @@
   margin-bottom: 40px;
 }
 
-.cards.promo-cards a.button.primary {
+.cards.promo-cards strong a.button.primary {
   background-color: #163052;
+}
+
+.cards.promo-cards  a.button.primary {
+  text-transform: uppercase;
 }
 
 .cards .cards-card-body p {
