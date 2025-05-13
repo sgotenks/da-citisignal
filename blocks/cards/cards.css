@@ -40,6 +40,7 @@
 
 .cards.promo-cards .cards-card-body h5 strong {
   background-color: #fff;
+  float: left;
 } 
 
 .cards .cards-card-body p {
