@@ -41,6 +41,10 @@
 .cards.promo-cards .cards-card-body h5 strong {
   background-color: #fff;
   float: left;
+  box-shadow: 0 0 .375rem 0 rgba(4, 13, 32, .0784313725);
+  border-radius: .375rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
 } 
 
 .cards .cards-card-body p {
