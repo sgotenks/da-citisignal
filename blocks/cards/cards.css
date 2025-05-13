@@ -53,6 +53,12 @@
   font-weight: bold;
 }
 
+.cards.promo-cards .cards-card-body h3 {
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+}
+
 .cards .cards-card-body p {
   margin: 0;
 }
