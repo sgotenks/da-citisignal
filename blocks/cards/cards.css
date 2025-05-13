@@ -62,6 +62,10 @@
   margin-bottom: 40px;
 }
 
+.cards.promo-cards a.button.primary {
+  background-color: #163052;
+}
+
 .cards .cards-card-body p {
   margin: 0;
 }
