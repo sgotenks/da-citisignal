@@ -83,10 +83,11 @@
 
 .teaser-lavazza > div:not(.teaser-img-col) > div {
   box-sizing: border-box;
-  padding: 3rem;
+  padding: inherit;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: inherit;
+  padding-left: 3em;
 }
 
 .teaser-lavazza > div:not(.teaser-img-col) h3 {
@@ -127,17 +128,10 @@
     font-family: Graphik, sans-serif;
     font-weight: 700;
     font-size: 24px;
-    margin-top: 0;
-    margin-bottom: .5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.teaser-lavazza h2{
-    font-family: Graphik, sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: .5rem;
-}
 
 .teaser-lavazza > div:not(.teaser-img-col) p{
     margin: 0;
@@ -166,7 +160,6 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
 .teaser-lavazza > div:not(.teaser-img-col) {
     position: absolute;
     left: 0;
-    top: 0;
 }
 
 .teaser-lavazza{
