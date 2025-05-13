@@ -80,6 +80,11 @@
   color: #051432;
 }
 
+.cards.promo-cards > ul > li img {
+  width: auto;
+  height: 100px;
+}
+
 .cards .cards-card-body p {
   margin: 0;
 }
