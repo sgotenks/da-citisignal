@@ -143,14 +143,19 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-    color: #343e52;
-    text-align: left;
-    background-color: #fff;
 }
 
 button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
     background-color: #fff;
     color: #163052;
+}
+
+button.button.primary:hover, button.button-primary:hover, a.button.primary:hover, a.button-primary:hover {
+    background-color: #fff;
+}
+
+button.button.primary:active, button.button-primary:active, a.button.primary:active, a.button-primary:active {
+    background-color: #fff;
 }
 
 @media (width <= 900px) {
