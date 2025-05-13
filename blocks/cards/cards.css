@@ -65,6 +65,7 @@
 .cards.promo-cards strong a.button.primary {
   background-color: #163052;
   color: #FFF;
+  text-decoration: none;
 }
 
 .cards.promo-cards a.button {
