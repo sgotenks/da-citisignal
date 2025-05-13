@@ -153,10 +153,12 @@ button.button.primary, button.button-primary, a.button.primary, a.button-primary
 
 button.button.primary:hover, button.button-primary:hover, a.button.primary:hover, a.button-primary:hover {
     background-color: #fff;
+    color: #163052;
 }
 
 button.button.primary:active, button.button-primary:active, a.button.primary:active, a.button-primary:active {
     background-color: #fff;
+    color: #163052;
 }
 
 .teaser-lavazza > div:not(.teaser-img-col) {
