@@ -28,7 +28,9 @@
 }
 
 .cards.promo-cards .cards-card-body {
-  background-color: #f2f3f4; 
+  background-color: #f2f3f4;
+  padding: 15px;
+  color: #051432;
 } 
 
 .cards .cards-card-body p {
