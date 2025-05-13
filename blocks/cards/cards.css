@@ -31,6 +31,15 @@
   background-color: #f2f3f4;
   padding: 15px;
   color: #051432;
+}
+
+.cards.promo-cards .cards-card-body h5 {
+  width: 100%;
+  text-align: center;
+}
+
+.cards.promo-cards .cards-card-body h5 strong {
+  background-color: #fff;
 } 
 
 .cards .cards-card-body p {
