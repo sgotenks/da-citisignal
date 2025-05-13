@@ -68,6 +68,12 @@
 
 .cards.promo-cards  a.button {
   text-transform: uppercase;
+  color: #051432;
+}
+
+.cards.promo-cards a.button:hover {
+  text-decoration: underline;
+  color: #051432;
 }
 
 .cards .cards-card-body p {
