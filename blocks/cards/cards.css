@@ -53,6 +53,8 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 85px;
+  line-height: 30px;
+  height: 32px;
 }
 
 .cards.promo-cards .cards-card-body h3 {
