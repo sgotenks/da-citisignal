@@ -121,6 +121,38 @@
   padding-bottom: 5px;
 }
 
+.teaser-lavazza h2{
+    font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.teaser-lavazza h2{
+    font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.teaser-lavazza > div:not(.teaser-img-col) p{
+    margin: 0;
+    font-family: Graphik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343e52;
+    text-align: left;
+    background-color: #fff;
+}
+
+button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
+    background-color: #fff;
+    color: #163052;
+}
+
 @media (width <= 900px) {
   .teaser-lavazza {
     flex-direction: column-reverse;
