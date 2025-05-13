@@ -64,9 +64,10 @@
 
 .cards.promo-cards strong a.button.primary {
   background-color: #163052;
+  color: #FFF;
 }
 
-.cards.promo-cards  a.button {
+.cards.promo-cards a.button {
   text-transform: uppercase;
   color: #051432;
 }
