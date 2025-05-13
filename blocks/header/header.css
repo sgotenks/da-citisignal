@@ -90,6 +90,16 @@ header nav a:any-link {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.56px;
+
+        cursor: pointer;
+    font-family: Graphik, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: .0625rem;
+    line-height: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #163052;
 }
 
 /* hamburger */
@@ -211,7 +221,7 @@ header nav .nav-sections ul {
   padding-left: 0;
   font: var(--type-body-1-default-font);
   letter-spacing: var(--type-body-1-default-letter-spacing);
-  gap: 0.5em;
+  gap: 3.5em;
 }
 
 header nav .nav-sections ul > li {
