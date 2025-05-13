@@ -1,4 +1,4 @@
-.teaser {
+.teaser-lavazza {
   display: flex;
   background: #000;
   align-items: stretch;
@@ -6,24 +6,24 @@
   border-radius: var(--border-radius);
 }
 
-.teaser.medium.medium-height {
+.teaser-lavazza.medium.medium-height {
   max-height: 340px;
   margin-top: 45px;
   margin-bottom: 45px;
 }
 
-.teaser.high-height {
+.teaser-lavazza.high-height {
   max-height: 410px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.teaser.align-right {
+.teaser-lavazza.align-right {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.teaser.align-right .teaser-img-col {
+.teaser-lavazza.align-right .teaser-img-col {
   display: flex;
   flex-direction: row-reverse;
   border-radius: var(--border-radius);
@@ -31,12 +31,12 @@
   border-bottom-left-radius: 0;
 }
 
-.teaser.bg-secondary {
+.teaser-lavazza.bg-secondary {
   background: var(--secondary-color);
   color: white;
 }
 
-.teaser.bg-none {
+.teaser-lavazza.bg-none {
     background: transparent;
     color: #000;
 }
@@ -46,11 +46,11 @@
   color: var(--secondary-color);
 }
 
-.teaser.bg-secondary > div:not(.teaser-img-col) {
+.teaser-lavazza.bg-secondary > div:not(.teaser-img-col) {
   color: white;
 }
 
-.teaser.bg-none > div:not(.teaser-img-col) {
+.teaser-lavazza.bg-none > div:not(.teaser-img-col) {
   color: #000;
 }
 
@@ -70,7 +70,7 @@
   width: auto;
 }
 
-.teaser > div:not(.teaser-img-col) {
+.teaser-lavazza > div:not(.teaser-img-col) {
   color: var(--color-neutral-50);
   flex: 1;
   display: flex;
@@ -79,7 +79,7 @@
   gap: 1em;
 }
 
-.teaser > div:not(.teaser-img-col) > div {
+.teaser-lavazza > div:not(.teaser-img-col) > div {
   box-sizing: border-box;
   padding: 3rem;
   display: flex;
@@ -87,7 +87,7 @@
   gap: 10px;
 }
 
-.teaser > div:not(.teaser-img-col) h3 {
+.teaser-lavazza > div:not(.teaser-img-col) h3 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -97,7 +97,7 @@
   width: 100%;
 }
 
-.teaser > div:not(.teaser-img-col) h3 a {
+.teaser-lavazza > div:not(.teaser-img-col) h3 a {
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -105,7 +105,7 @@
   letter-spacing: inherit;
 }
 
-.teaser > div:not(.teaser-img-col) p {
+.teaser-lavazza > div:not(.teaser-img-col) p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -114,24 +114,75 @@
   margin: 0;
 }
 
-.teaser a:any-link.teaser-link {
+.teaser-lavazza a:any-link.teaser-link {
   background-color: var(--secondary-color);
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
+.teaser-lavazza h2{
+    font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.teaser-lavazza h2{
+    font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.teaser-lavazza > div:not(.teaser-img-col) p{
+    margin: 0;
+    font-family: Graphik, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 8rem;
+}
+
+button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
+    background-color: #fff;
+    color: #163052;
+}
+
+button.button.primary:hover, button.button-primary:hover, a.button.primary:hover, a.button-primary:hover {
+    background-color: #fff;
+    color: #163052;
+}
+
+button.button.primary:active, button.button-primary:active, a.button.primary:active, a.button-primary:active {
+    background-color: #fff;
+    color: #163052;
+}
+
+.teaser-lavazza > div:not(.teaser-img-col) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.teaser-lavazza{
+    max-height: inherit;
+    position: relative;
+}
+
 @media (width <= 900px) {
-  .teaser {
+  .teaser-lavazza {
     flex-direction: column-reverse;
     max-height: 568px;
   }
-  .teaser .teaser-img-col {
+  .teaser-lavazza .teaser-img-col {
     border-radius: var(--border-radius);
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
-  .teaser .teaser > div:not(.teaser-img-col) > div {
+  .teaser-lavazza .teaser-lavazza > div:not(.teaser-img-col) > div {
     text-align: center;
     padding: 5rem 7rem;
   }
