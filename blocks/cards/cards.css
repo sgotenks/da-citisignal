@@ -46,7 +46,12 @@
   padding-left: .75rem;
   padding-right: .75rem;
   font-size: 1.3rem;
-} 
+}
+
+.cards.promo-cards .cards-card-body h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
 .cards .cards-card-body p {
   margin: 0;
