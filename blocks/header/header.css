@@ -551,6 +551,7 @@ header .header > .default-content-wrapper {
   padding: 0 1rem;
   gap: 2rem;
   box-sizing: border-box;
+background-color: #163052 !important;
 }
 
 header .header .dropdown-wrapper button {
