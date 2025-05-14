@@ -31,7 +31,7 @@ main .hero-container > div {
 .hero {
   position: relative;
   display: flex;
-  padding: 8rem 10rem;
+  padding: 20px 60px 0px 60px;
   min-height: 525px;
   box-sizing: border-box;
   color: #fff;
