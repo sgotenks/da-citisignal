@@ -226,6 +226,7 @@ main .hero-container > div {
   
   .hero.home-version h2 {
     font-size: 17px;
+    width: 80%;
   }  
 
 
