@@ -168,7 +168,23 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
     background: white;
 }
 
+.teaser-lavazza .teaser-img-col:nth-child(1) {
+	    display: block;
+	  }
+
+	.teaser-lavazza .teaser-img-col:nth-child(2) {
+	    display: none;
+	  }
+
 @media (width <= 900px) {
+
+	.teaser-lavazza .teaser-img-col:nth-child(2) {
+	    display: block;
+	  }
+
+	.teaser-lavazza .teaser-img-col:nth-child(1) {
+	    display: none;
+	  }
 	
   .teaser-lavazza {
     flex-direction: column-reverse;
@@ -188,7 +204,7 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
   .teaser-lavazza {
         flex-direction: column-reverse;
         max-height: 1000px;
-        height: 400px;
+        height: inherit;
 	  	max-height: inherit;
     }
 	
@@ -196,7 +212,7 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
 		height: 100%;
 		object-fit: cover;
 		object-position: top;
-		height: 400px;
+		height: inherit;
 	}
 	
 	.teaser-lavazza {
