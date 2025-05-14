@@ -130,7 +130,6 @@ main .hero-container > div {
   background: transparent;
 }
 
-
 /* Picture Styles */
 .hero:not(.wireless) picture {
   position: absolute;
@@ -213,70 +212,6 @@ main .hero-container > div {
   background-color: lightgrey;
 }
 
-@media (width <= 900px) {
- /* 
-  .hero {
-    padding: 0px;
-    margin: 0;
-  }
 
-  .hero.home-version h1 {
-    font-size: 60px;
-  }
-  
-  .hero.home-version h2 {
-    font-size: 17px;
-    width: 80%;
-  }  
-*/
-} 
 
-/* wireless variation */
-.hero.wireless {
-  background: unset;
-  min-height: 300px;
-  overflow: hidden;
-  color: inherit;
-  margin-top: 4rem;
-}
 
-.hero.wireless picture {
-  top: unset;
-}
-
-.hero.wireless img {
-  object-fit: cover;
-  border-radius: 20px;
-  transition: transform 1s ease 0s;
-}
-
-.hero.wireless:hover img {
-  transform: scale(1.03);
-}
-
-.hero.wireless > div:nth-child(1) {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero.wireless div:nth-child(2) {
-  padding-top: unset;
-  display: flex;
-  align-items: center;
-}
-
-.hero.wireless > div:nth-child(1) > div {
-  height: 100%;
-}
-
-.hero.wireless h1 {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 45px;
-  letter-spacing: normal;
-}
