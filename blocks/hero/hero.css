@@ -209,6 +209,10 @@ main .hero-container > div {
   background-color: lightgrey;
 }
 
+.hero.home-version h3 a:hover {
+  background-color: lightgrey;
+}
+
 @media (width <= 900px) {
   /* Responsive Styles for Hero Sections */
   .hero {
