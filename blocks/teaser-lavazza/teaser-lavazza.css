@@ -203,7 +203,7 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
 		display: flex;
 		background: #000;
 		align-items: stretch;
-		max-height: 240px;
+		max-height: inherit;
 		border-radius: var(--border-radius);
 		margin-top: 2em;
 		margin-bottom: 2em;
