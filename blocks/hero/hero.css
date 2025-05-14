@@ -167,7 +167,8 @@ main .hero-container > div {
 }
 
 .hero.home-version h1 {
-  font-size: 70px;
+  width: 100%;
+  font-size: 60px;
   line-height: 88px;
 }
 
