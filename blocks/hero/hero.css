@@ -214,7 +214,7 @@ main .hero-container > div {
 }
 
 @media (width <= 900px) {
-  
+ /* 
   .hero {
     padding: 0px;
     margin: 0;
@@ -228,7 +228,7 @@ main .hero-container > div {
     font-size: 17px;
     width: 80%;
   }  
-
+*/
 } 
 
 /* wireless variation */
