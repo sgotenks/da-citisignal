@@ -33,8 +33,6 @@ main .hero-container > div {
   display: flex;
   padding: 8rem 10rem;
   min-height: 725px;
-  background: linear-gradient(180deg, var(--primary-color) 30%, var(--secondary-color) 100%);
-  border-radius: 20px;
   box-sizing: border-box;
   color: #fff;
   z-index: 0;
@@ -213,8 +211,14 @@ main .hero-container > div {
 }
 
 @media (width <= 900px) {
+  
+  .hero {
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+  }
+} 
 
-}
 
 @media (width <= 768px) {
 
