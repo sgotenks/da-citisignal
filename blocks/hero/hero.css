@@ -3,6 +3,11 @@ main .hero-container > div {
   max-width: var(--large-grid-layout);
 }
 
+.hero.home-version div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Typography Styles */
 .hero h1 {
   /* font-family: "Open Sans"; */
