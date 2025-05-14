@@ -39,7 +39,7 @@ main .hero-container > div {
 }
 
 .hero-container {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .hero.medium {
