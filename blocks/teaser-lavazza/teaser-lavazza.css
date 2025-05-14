@@ -169,6 +169,7 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
 }
 
 @media (width <= 900px) {
+	
   .teaser-lavazza {
     flex-direction: column-reverse;
     max-height: 568px;
@@ -182,6 +183,60 @@ button.button.primary:active, button.button-primary:active, a.button.primary:act
     text-align: center;
     padding: 5rem 7rem;
   }
+
+
+  .teaser-lavazza {
+        flex-direction: column-reverse;
+        max-height: 1000px;
+        height: 400px;
+	  	max-height: inherit;
+    }
+	
+  .teaser-img-col img {
+		height: 100%;
+		object-fit: cover;
+		object-position: top;
+		height: 400px;
+	}
+	
+	.teaser-lavazza {
+		display: flex;
+		background: #000;
+		align-items: stretch;
+		max-height: inherit;
+		border-radius: var(--border-radius);
+		margin-top: 2em;
+		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+
+    .teaser-lavazza > div:not(.teaser-img-col) {
+        text-align: center;
+    }
+
+    button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
+        display: inline-block;
+    }
+
+	.teaser-lavazza h2 {
+	    width: 100%;
+	}
+
+	.teaser-lavazza > div:not(.teaser-img-col) > div {
+	    padding: inherit;
+	    padding-left: 1em;
+	    padding-right: 1em;
+	}
+
+	.teaser-lavazza > div:not(.teaser-img-col) {
+	    gap: inherit;
+	}
+
+	.teaser-lavazza > div:not(.teaser-img-col) p {
+	    margin-bottom: inherit;
+	}
+    
 }
 
 @media only screen and (max-width: 600px) {
