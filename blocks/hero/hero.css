@@ -38,6 +38,10 @@ main .hero-container > div {
   z-index: 0;
 }
 
+.hero-container {
+  padding: 0;
+}
+
 .hero.medium {
   min-height: 300px;
   padding: 1.5rem 10rem;
