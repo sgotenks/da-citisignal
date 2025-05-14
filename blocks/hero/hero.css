@@ -192,8 +192,13 @@ main .hero-container > div {
   line-height: 0;
 }
 
-.hero.hero.home-version h3:hover {
+.hero.hero.home-version h3 a {
   font-weight: bold;
+  width: 100%;
+}
+
+.hero.hero.home-version h3 a {
+  text-decoration: none;
 }
 
 @media (width <= 900px) {
