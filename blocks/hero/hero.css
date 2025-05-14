@@ -8,12 +8,13 @@ main .hero-container > div {
   margin-right: auto;
 }
 
-.hero.home-version h1 {
-  font-size: 60px;
-}
-
 /* Typography Styles */
-
+.hero h1 {
+  /* font-family: "Open Sans"; */
+  /* font-size: 36px; */
+  font-weight: 800;
+  line-height: 45px;
+}
 
 /* Paragraph Styles */
 .hero p {
@@ -168,6 +169,12 @@ main .hero-container > div {
 
 .hero.home-version {
   text-align: center;
+}
+
+.hero.home-version h1 {
+  width: 100%;
+  font-size: 60px;
+  line-height: 88px;
 }
 
 .hero.home-version h2 {
