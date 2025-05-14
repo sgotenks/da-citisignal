@@ -32,7 +32,7 @@ main .hero-container > div {
   position: relative;
   display: flex;
   padding: 8rem 10rem;
-  min-height: 725px;
+  min-height: 525px;
   box-sizing: border-box;
   color: #fff;
   z-index: 0;
@@ -218,7 +218,6 @@ main .hero-container > div {
   .hero {
     padding: 0px;
     margin: 0;
-    min-height: 525px;
   }
 
   .hero.home-version h1 {
