@@ -1,0 +1,278 @@
+/* Container Styles */
+main .hero-container > div {
+    max-width: var(--large-grid-layout);
+  }
+  
+  /* Typography Styles */
+  .hero h1 {
+    /* font-family: "Open Sans"; */
+    /* font-size: 36px; */
+    font-weight: 800;
+    line-height: 45px;
+  }
+  
+  /* Paragraph Styles */
+  .hero p {
+    margin: 2rem 0;
+  }
+  
+  .hero h1,
+  .hero h2,
+  .hero h3,
+  .hero h4,
+  .hero h5,
+  .hero h6 {
+    letter-spacing: 0.04em;
+    line-height: normal;
+  }
+  
+  
+  /* Hero Section Styles */
+  .hero {
+    position: relative;
+    display: flex;
+    padding: 8rem 10rem;
+    min-height: 725px;
+    background: linear-gradient(180deg, var(--primary-color) 30%, var(--secondary-color) 100%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 0;
+  }
+  
+  .hero.medium {
+    min-height: 300px;
+    padding: 1.5rem 10rem;
+  }
+  
+  .hero.small {
+    min-height: 180px;
+    padding: 1.5rem 10rem;
+  } 
+  
+  .hero > .overlay {
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .hero > .overlay > div {
+    width: fit-content;
+    max-width: 65%;
+  }
+  
+  /* overlay */
+  .hero.block.background-size-cover > div:not(.overlay) img {
+    object-fit: cover;
+  }
+  
+  .hero.block.background-size-contain > div:not(.overlay) img {
+    object-fit: contain;
+  }
+  
+  .hero.block.background-size-fill > div:not(.overlay) img {
+    object-fit: fill;
+  }
+  
+  .hero.block.background-size-auto > div:not(.overlay) img {
+    object-fit: auto;
+  }
+  
+  .hero.block.overlay-display-always .overlay {
+    display: block;
+  }
+  
+  .hero.block.overlay-display-on-hover .overlay {
+    display: none !important;
+  }
+  
+  .hero.block.overlay-display-on-hover:hover .overlay {
+    display: flex !important;
+  }
+  
+  .hero.block.overlay-display-never .overlay {
+    display: none !important;
+  }
+  
+  .hero.block.overlay-alignment-vertical-top .overlay {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .hero.block.overlay-alignment-vertical-middle .overlay {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero.block.overlay-alignment-vertical-bottom .overlay {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .hero.block.overlay-alignment-horizontal-left .overlay {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .hero.block.overlay-alignment-horizontal-middle .overlay {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero.block.overlay-alignment-horizontal-right .overlay {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hero .overlay > div {
+    background: transparent;
+  }
+  
+  
+  /* Picture Styles */
+  .hero:not(.wireless) picture {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+    bottom: 0;
+  }
+  
+  .hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  /* Default Content Wrapper Styles */
+  .hero-container .default-content-wrapper h1,
+  .hero-container .default-content-wrapper h2,
+  .hero-container .default-content-wrapper h3,
+  .hero-container .default-content-wrapper h4,
+  .hero-container .default-content-wrapper h5,
+  .hero-container .default-content-wrapper h6 {
+    margin: 1rem 0 3rem;
+  }
+  
+  .hero div:nth-child(3) h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  
+  .hero.home-version {
+    text-align: center;
+  }
+  
+  .hero.home-version h1 {
+    width: 100%;
+    font-size: 90px;
+    line-height: 88px;
+  }
+  
+  .hero.home-version h2 {
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 554px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+  }
+  
+  .hero.home-version h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero.home-version h3 a {
+    font-weight: bold;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 49px;
+    line-height: 0;
+    color: #163052;
+  }
+  
+  .hero.home-version h3 a {
+    text-decoration: none;
+    color: #163052;
+  }
+  
+  .hero.home-version h3 a:hover {
+    background-color: lightgrey;
+  }
+  
+  @media (width <= 900px) {
+  
+
+  }
+  
+  @media (width <= 768px) {
+
+  }
+  
+  /* wireless variation */
+  .hero.wireless {
+    background: unset;
+    min-height: 300px;
+    overflow: hidden;
+    color: inherit;
+    margin-top: 4rem;
+  }
+  
+  .hero.wireless picture {
+    top: unset;
+  }
+  
+  .hero.wireless img {
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 1s ease 0s;
+  }
+  
+  .hero.wireless:hover img {
+    transform: scale(1.03);
+  }
+  
+  .hero.wireless > div:nth-child(1) {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  
+  .hero.wireless div:nth-child(2) {
+    padding-top: unset;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero.wireless > div:nth-child(1) > div {
+    height: 100%;
+  }
+  
+  .hero.wireless h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: normal;
+  }
+  
+ 
+  
+  @media (width <= 900px) {
+    
+  }
