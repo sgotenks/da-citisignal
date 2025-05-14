@@ -145,7 +145,6 @@ main .hero-container > div {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  border-radius: 20px;
 }
 
 /* Default Content Wrapper Styles */
