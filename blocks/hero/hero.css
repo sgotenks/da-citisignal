@@ -181,6 +181,13 @@ main .hero-container > div {
   margin-top: 22px;
 }
 
+.hero.home-version h3{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  margin-top: 80px;
+}
+
 .hero.home-version h3 a {
   font-weight: bold;
   width: 200px;
