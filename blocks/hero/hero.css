@@ -166,6 +166,12 @@ main .hero-container > div {
   text-align: center;
 }
 
+.hero.hero.home-version h1 {
+  width: 100%;
+  font-size: 90px;
+  line-height: 88px;
+}
+
 @media (width <= 900px) {
   /* Responsive Styles for Hero Sections */
   .hero {
