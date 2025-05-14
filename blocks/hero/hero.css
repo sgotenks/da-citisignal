@@ -286,9 +286,3 @@ main .hero-container > div {
   line-height: 45px;
   letter-spacing: normal;
 }
-
-
-
-@media (width <= 900px) {
-
-}
