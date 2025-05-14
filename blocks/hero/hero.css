@@ -206,7 +206,6 @@ main .hero-container > div {
 .hero.home-version h3 a {
   text-decoration: none;
   color: #163052;
-  background-color: lightgrey;
 }
 
 .hero.home-version h3 a:hover {
