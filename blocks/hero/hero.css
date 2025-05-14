@@ -220,6 +220,16 @@ main .hero-container > div {
     padding: 0px;
     margin: 0;
   }
+
+  .hero.home-version h1 {
+    font-size: 60px;
+  }
+  
+  .hero.home-version h2 {
+    font-size: 17px;
+  }  
+
+
 } 
 
 
