@@ -3552,6 +3552,6 @@ items:structuredClone(n.items),categories:structuredClone(n.categories),block:e,
                     </ul>
                 </td>
             </tr>
-        </table>`,selection:"multiple",type:"folder"}},getCategories:yf,getItems:yp,configFiles:{prod:"https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs.json?sheet=prod",stage:"https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs-stage.json",dev:"https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs-dev.json"},defaultConfig:"prod"}),ym);//# sourceMappingURL=index.8321e709.js.map
+        </table>`,selection:"multiple",type:"folder"}},getCategories:yf,getItems:yp,configFiles:{prod:"https://main--da-citisignal--sgotenks.aem.live/configs.json",stage:"https://main--da-citisignal--sgotenks.aem.live/configs-stage.json",dev:"https://main--da-citisignal--sgotenks.aem.live/configs-dev.json"},defaultConfig:"prod"}),ym);//# sourceMappingURL=index.8321e709.js.map
 
 //# sourceMappingURL=index.8321e709.js.map
