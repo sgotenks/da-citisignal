@@ -41,7 +41,7 @@
     },
     {
       "key": "commerce-environment",
-      "value": "Testing"
+      "value": "Production"
     },
     {
       "key": "commerce-store-id",
