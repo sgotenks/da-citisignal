@@ -66,7 +66,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
         }
         total_count
     }
-}`,mT=pT.replaceAll(/(?:\r\n|\r|\n|\t|[\s]{4})/g," "),hT="https://main--da-citisignal--sgotenks.aem.live/configs.json",gT="prod",$T={identifier:{key:"identifier",name:"Identifier only",output:e=>e.isFolder?e.id:e.sku,selection:"single",type:"any"},"product-list-page":{key:"product-list-page",name:"Product List Page",output:e=>`<table width="100%" style="border: 1px solid black;">
+}`,mT=pT.replaceAll(/(?:\r\n|\r|\n|\t|[\s]{4})/g," "),hT="https://main--citisignal--aabsites.aem.live/configs.json",gT="prod",$T={identifier:{key:"identifier",name:"Identifier only",output:e=>e.isFolder?e.id:e.sku,selection:"single",type:"any"},"product-list-page":{key:"product-list-page",name:"Product List Page",output:e=>`<table width="100%" style="border: 1px solid black;">
             <tr>
                 <th colspan="2" style="border: 1px solid black; background: lightgray;">Product List Page</th>
             </tr>

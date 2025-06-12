@@ -7,13 +7,12 @@ import getProductsInCategory from './queries/products.graphql.js';
 
 import './styles.css';
 
-const configFile = 'https://main--da-citisignal--sgotenks.aem.live/configs.json';
+const configFile = 'https://main--citisignal--aabsites.aem.live/configs.json';
 const defaultConfig = 'prod';
 
 /**
  * List of blocks to be available in the picker.
- *https://main--da-citisignal--sgotenks.aem.live/configs.json
-
+ *
  * Format: Object with key -> block mapping. Each block is defined by the following properties:
  *   key: Unique key, must be same as the key in the object
  *   name: Displayed name of the block
