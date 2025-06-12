@@ -9,15 +9,15 @@
     },
     {
       "key": "commerce.headers.cs.Magento-Environment-Id",
-      "value": "0a9ae65d-c1a5-49f6-af64-1ec1ff47ab52"
+      "value": "6d01dc5f-924c-4439-a783-65b91d11c05e"
     },
     {
       "key": "commerce.headers.cs.Magento-Store-Code",
-      "value": "main_website_store"
+      "value": "lavazza_store"
     },
     {
       "key": "commerce.headers.cs.Magento-Store-View-Code",
-      "value": "default"
+      "value": "lavazza_eng"
     },
     {
       "key": "commerce.headers.cs.Magento-Website-Code",
@@ -25,7 +25,7 @@
     },
     {
       "key": "commerce.headers.cs.x-api-key",
-      "value": "9753cd30401a477e816ed850c4f77e18"
+      "value": "storefront-widgets"
     },
     {
       "key": "commerce-base-currency-code",
@@ -33,15 +33,15 @@
     },
     {
       "key": "commerce-core-endpoint",
-      "value": "http://adobecommerce247.local/graphql"
+      "value": "https://com832.adobedemo.com/graphql"
     },
     {
       "key": "commerce-endpoint",
-      "value": "http://adobecommerce247.local/graphql"
+      "value": "https://catalog-service-sandbox.adobe.io/graphql"
     },
     {
       "key": "commerce-environment",
-      "value": "Testing"
+      "value": "Production"
     },
     {
       "key": "commerce-store-id",
@@ -53,7 +53,7 @@
     },
     {
       "key": "commerce-store-url",
-      "value": "http://adobecommerce247.local/"
+      "value": "https://main--da-citisignal--sgotenks.aem.live/"
     },
     {
       "key": "commerce-store-view-id",
@@ -69,7 +69,7 @@
     },
     {
       "key": "commerce-website-name",
-      "value": "Main Website"
+      "value": "LAVAZZA_IT"
     }
   ],
   "columns": [
