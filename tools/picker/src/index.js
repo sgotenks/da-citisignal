@@ -11,7 +11,7 @@ import './styles.css';
  * Object containing all configuration files that should be exposed in the picker.
  */
 const configFiles = {
-    'prod': 'https://main--da-citisignal--sgotenks.aem.live/configs.json',
+    'prod': 'https://main--da-citisignal--sgotenks.aem.live/configs.json=sheet=data',
     'stage': 'https://main--da-citisignal--sgotenks.aem.live/configs-stage.json',
     'dev': 'https://main--da-citisignal--sgotenks.aem.live/configs-dev.json',
 }
