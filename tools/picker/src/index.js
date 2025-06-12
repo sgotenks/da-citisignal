@@ -11,9 +11,9 @@ import './styles.css';
  * Object containing all configuration files that should be exposed in the picker.
  */
 const configFiles = {
-    'prod': 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs.json?sheet=prod',
-    'stage': 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs-stage.json',
-    'dev': 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs-dev.json',
+    'prod': 'https://main--da-citisignal--sgotenks.aem.live/configs.json',
+    'stage': 'https://main--da-citisignal--sgotenks.aem.live/configs-stage.json',
+    'dev': 'https://main--da-citisignal--sgotenks.aem.live/configs-dev.json',
 }
 /**
  * Default configuration to be loaded.
