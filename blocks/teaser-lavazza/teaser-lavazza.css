@@ -124,6 +124,10 @@
   padding-bottom: 5px;
 }
 
+.teaser-lavazza a:any-link.button.primary.teaser-link {
+    background-color: #fff;
+}
+
 .teaser-lavazza h2{
     font-family: Graphik, sans-serif;
     font-weight: 700;
