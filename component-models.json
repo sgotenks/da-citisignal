@@ -205,26 +205,42 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "boolean",
+        "label": "Promo Cards",
+        "name": "classes_promo-cards",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+        "name": "div:nth-child(1)>picture:nth-child(2)>img:nth-child(3)[src]",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "name": "div:nth-child(1)>picture:nth-child(2)>img:nth-child(3)[alt]",
         "label": "Image Alt",
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>h5:nth-child(1)",
+        "label": "Tag"
+      },
+      {
         "component": "richtext",
         "name": "div:nth-child(2)",
-        "value": "",
         "label": "Text",
         "valueType": "string"
       }
