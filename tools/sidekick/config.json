@@ -10,6 +10,16 @@
       "icon": "https://main--citisignal--aabsites.aem.live/images/sidekick-icons/media_1404d03ca91fbb64cbec38601beb4c110bd76766f.png"
     },
     {
+      "id": "cif",
+      "title": "Commerce",
+      "environments": [
+        "da-edit"
+      ],
+      "experience": "dialog",
+      "url": "https://main--aem-commerce-picker-dist--oneadobe.aem.page/dist/dist/document-authoring.html",
+      "passConfig": true
+    },
+    {
       "id": "segments",
       "title": "Segmentation Picker",
       "environments": ["edit"],
