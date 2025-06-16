@@ -465,10 +465,11 @@ button.button-secondary,
 a.button.secondary,
 a.button-secondary {
   display: block;
-  background-color: #000;
   font-size: var(--body-font-size-md);
   font-weight: 600;
   color: #fff;
+  border: .0625rem solid #fff;
+  border-radius: 1.875rem;
   padding: 8px 30px;
   width: fit-content;
   height: auto;
@@ -478,7 +479,7 @@ a.button-secondary {
   text-align: center;
   margin: 15px 0;
   text-transform: uppercase;
-  border-radius: 24px;
+  background-color: unset;
 }
 
 a.button.disabled,

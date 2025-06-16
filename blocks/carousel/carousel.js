@@ -167,6 +167,6 @@ export default async function decorate(block) {
   block.prepend(container);
   if (!isSingleSlide) {
     bindEvents(block);
-    startAutoplay(block);
+    //startAutoplay(block);
   }
 }

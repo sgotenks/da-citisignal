@@ -1,11 +1,36 @@
-main > .section .carousel-wrapper {
+main>.section .carousel-wrapper {
     max-width: unset;
     padding: 0;
 }
 
-.carousel-container h2, .carousel-container p {
+.carousel h2,
+.carousel h3,
+.carousel h4,
+.carousel p {
+    font-family: Graphik, sans-serif;
     padding: 0 var(--spacing-xxlarge);
     text-align: center;
+    width: unset;
+}
+
+.carousel h2 {
+    font-size: 6rem;
+    letter-spacing: -.106875rem;
+    line-height: 5.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.carousel h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+.carousel p.button-container a{
+    margin: 0 auto;
 }
 
 .carousel .carousel-slides-container {
@@ -56,7 +81,7 @@ main > .section .carousel-wrapper {
     inset: 0;
 }
 
-.carousel .carousel-slide .carousel-slide-image picture > img {
+.carousel .carousel-slide .carousel-slide-image picture>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -64,10 +89,9 @@ main > .section .carousel-wrapper {
 
 .carousel .carousel-slide .carousel-slide-content {
     z-index: 1;
-    margin: 68px;
+    margin: 68px auto;
     padding: var(--spacing-small);
     color: white;
-    background-color: rgba(19 19 19 / 75%);
     position: relative;
     width: var(--slide-content-width, auto);
 }
@@ -154,7 +178,7 @@ main > .section .carousel-wrapper {
     left: calc(50% - 2px);
 }
 
-@media (width >= 600px) {
+@media (width >=600px) {
     .carousel .carousel-navigation-buttons {
         left: 24px;
         right: 24px;
@@ -162,8 +186,7 @@ main > .section .carousel-wrapper {
 
     .carousel .carousel-slide .carousel-slide-content {
         --slide-content-width: calc((100% - 184px) / 2);
-
-        margin: 92px;
+        margin: 92px auto;
     }
 
     .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
