@@ -9,8 +9,22 @@
       "text",
       "hero",
       "teaser",
+      "cards",
+      "carousel",
       "product-details",
       "teaser-lavazza"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "carousel-item"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
     ]
   }
 ]
