@@ -2,30 +2,13 @@
   "project": "lavazza",
   "plugins": [
     {
-      "id": "picker",
-      "title": "Commerce Picker",
-      "environments": ["edit"],
-      "daLibrary": true,
-      "path": "/tools/da/picker/dist/src/index.html",
-      "icon": "https://main--citisignal--aabsites.aem.live/images/sidekick-icons/media_1404d03ca91fbb64cbec38601beb4c110bd76766f.png"
-    },
-    {
       "id": "cif",
-      "title": "Commerce",
+      "title": "Commerce Picker",
       "environments": ["edit"],
       "url": "https://main--aem-commerce-picker-dist--oneadobe.aem.page/dist/dist/document-authoring.html",
       "icon": "https://main--citisignal--aabsites.aem.live/images/sidekick-icons/media_1404d03ca91fbb64cbec38601beb4c110bd76766f.png",
       "passConfig": true,
       "daLibrary": true
-    },
-    {
-      "id": "aem-labs",
-      "title": "AEM Labs",
-      "environments": ["edit"],
-      "daLibrary": true,
-      "experience": "window",
-      "url": "https://labs.aem.live",
-      "icon": "https://main--da-block-collection--aemsites.aem.live/media/media_16e7a2074aac8a0f09c8c495ea7acb5fbc0adade4.png"
     },
     {
       "id": "segments",
