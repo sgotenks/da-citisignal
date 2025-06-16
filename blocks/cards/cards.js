@@ -15,6 +15,7 @@ export default function decorate(block) {
     if (promo) {
       const tag = li.firstElementChild.querySelector('h5');
       if (tag) {
+        tag.classList.add('cards-card-tag');
         li.lastElementChild.insertBefore(tag, li.lastElementChild.firstElementChild);
       }
       const picture = li.firstElementChild.querySelector('picture');

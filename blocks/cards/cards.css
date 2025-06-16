@@ -29,19 +29,17 @@
 
 .cards.promo-cards .cards-card-body {
   background-color: #f2f3f4;
-  padding: 15px 15px 0 15px;
+  padding: 50px 15px 0 15px;
   color: #051432;
   border-radius: 7px;
+  position: relative;
 }
 
-.cards.promo-cards .cards-card-body h5 {
-  width: 100%;
-  text-align: center;
-}
-
-.cards.promo-cards .cards-card-body h5 strong {
+.cards.promo-cards .cards-card-body h5.cards-card-tag {
   background-color: #fff;
-  float: left;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
   box-shadow: 0 0 .375rem 0 rgba(4, 13, 32, .0784313725);
   border-radius: .375rem;
   padding: .5rem 1rem;
