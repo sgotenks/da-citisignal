@@ -87,151 +87,18 @@
       {
         "component": "select",
         "valueType": "string",
-        "name": "div:nth-child(1)[data-grid-layout]",
-        "label": "Grid Layout",
+        "name": "style",
+        "label": "Styles",
         "value": "",
         "options": [
           {
-            "name": "Grid Row",
-            "value": "grid-row"
+            "name": "Align Center",
+            "value": "align-center"
           },
           {
-            "name": "Grid Column",
-            "value": "grid-column"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "div:nth-child(1)[data-background-size]",
-        "label": "Background Size",
-        "value": "",
-        "options": [
-          {
-            "name": "Cover",
-            "value": "cover"
+            "name": "Promo",
+            "value": "promo"
           },
-          {
-            "name": "Contain",
-            "value": "contain"
-          },
-          {
-            "name": "Fill",
-            "value": "fill"
-          },
-          {
-            "name": "Auto",
-            "value": "auto"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "name": "div:nth-child(1)[data-background-color]",
-        "value": "",
-        "label": "Background Color",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "div:nth-child(1)[data-min-height]",
-        "value": "",
-        "label": "Height",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "div:nth-child(1)[data-text-color]",
-        "value": "",
-        "label": "Text Color",
-        "valueType": "string"
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "div:nth-child(1)[data-overlay-display]",
-        "label": "Overlay (hero-banner) Display",
-        "value": "",
-        "options": [
-          {
-            "name": "Always",
-            "value": "always"
-          },
-          {
-            "name": "On Hover",
-            "value": "on-hover"
-          },
-          {
-            "name": "Never",
-            "value": "never"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "name": "div:nth-child(1)[data-overlay-background-color]",
-        "value": "",
-        "label": "Overlay (hero-banner) Background Color",
-        "valueType": "string"
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "div:nth-child(1)[data-overlay-alignment-vertical]",
-        "label": "Overlay (hero-banner) Alignment Vertical",
-        "value": "",
-        "options": [
-          {
-            "name": "Top",
-            "value": "top"
-          },
-          {
-            "name": "Middle",
-            "value": "middle"
-          },
-          {
-            "name": "Bottom",
-            "value": "bottom"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "div:nth-child(1)[data-overlay-alignment-horizontal]",
-        "label": "Overlay (hero-banner) Alignment Horizontal",
-        "value": "",
-        "options": [
-          {
-            "name": "Left",
-            "value": "left"
-          },
-          {
-            "name": "Middle",
-            "value": "middle"
-          },
-          {
-            "name": "Right",
-            "value": "right"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "div:nth-child(1)[data-teaser-link]",
-        "label": "Teaser Link",
-        "value": "",
-        "options": [
-          {
-            "name": "True",
-            "value": "true"
-          },
-          {
-            "name": "False",
-            "value": "false"
-          }
         ]
       }
     ]

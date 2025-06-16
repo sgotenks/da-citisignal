@@ -325,6 +325,27 @@ h6 {
   margin: auto;
 }
 
+.section.promo .default-content-wrapper {
+  margin: 2.5rem auto;
+}
+
+.section.promo .default-content-wrapper h2,
+.section.promo .default-content-wrapper h3,
+.section.promo .default-content-wrapper h4,
+.section.promo .default-content-wrapper h5,
+.section.promo .default-content-wrapper h6,
+.section.promo .default-content-wrapper p {
+  font-family: Graphik, sans-serif;
+  width: unset;
+}
+
+.section.promo .default-content-wrapper h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 3pc;
+}
+
 p,
 dl,
 ol,
