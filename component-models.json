@@ -250,7 +250,7 @@
     "id": "product-teaser",
     "fields": [
       {
-        "component": "text",
+        "component": "sku",
         "name": "div:nth-child(1)>div:nth-child(2)>p:nth-child(1)",
         "label": "Product",
         "valueType": "string"
