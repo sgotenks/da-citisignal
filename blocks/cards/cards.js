@@ -16,15 +16,13 @@ export default function decorate(block) {
       const tag = li.firstElementChild.querySelector('h5');
       if (tag) {
         tag.classList.add('cards-card-tag');
-        li.lastElementChild.insertBefore(tag, li.lastElementChild.firstElementChild);
       }
       const picture = li.firstElementChild.querySelector('picture');
       if (picture) {
-        picture.classList.add('cards-card-image');
-        li.lastElementChild.append(picture);
-      }
-      if (li.firstElementChild.textContent?.trim() === '') {
-        li.firstElementChild.remove();
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('cards-card-image');
+        wrapper.append(picture);
+        li.lastElementChild.after(wrapper);
       }
     }
 
