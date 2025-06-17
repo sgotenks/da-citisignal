@@ -94,7 +94,7 @@ const getConfigForEnvironment = async (environment) => {
 export const getConfigValue = async (configParam, environment) => {
   const env = environment || calcEnvironment();
   const config = await getConfigForEnvironment(env);
-  const configElements = config.data || config[env].data;
+  const configElements = config[':type'] === 'sheet' ? config.data : config[env].data;
   return configElements.find((c) => c.key === configParam)?.value;
 };
 
@@ -105,7 +105,7 @@ export const getConfigValue = async (configParam, environment) => {
 export const getHeaders = async (scope, environment) => {
   const env = environment || calcEnvironment();
   const config = await getConfigForEnvironment(env);
-  const envConfig = config.data || config[env].data;
+  const envConfig = config[':type'] === 'sheet' ? config.data : config[env].data;
   const configElements = envConfig.filter((el) => el?.key.includes(`headers.${scope}`));
 
   return configElements.reduce((obj, item) => {

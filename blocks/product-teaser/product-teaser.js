@@ -55,8 +55,8 @@ function renderPlaceholder(config, block) {
       <h1></h1>
       <div class="price"></div>
       <div class="actions">
-        ${config['details-button'] ? '<a href="#" class="button primary disabled">Details</a>' : ''}
-        ${config['cart-button'] ? '<button class="secondary" disabled>Add to Cart</button>' : ''}
+        ${config['details-button'] === 'true' ? '<a href="#" class="button primary disabled">Details</a>' : ''}
+        ${config['cart-button'] === 'true' ? '<button class="button secondary" disabled>Add to Cart</button>' : ''}
       </div>
     </div>
   `));
@@ -111,8 +111,8 @@ function renderProduct(product, config, block) {
       <h1>${name}</h1>
       <div class="price">${renderPrice(product, priceFormatter.format)}</div>
       <div class="actions">
-        ${config['details-button'] ? `<a href="/products/${urlKey}/${sku}" class="button primary">Details</a>` : ''}
-        ${config['cart-button'] && addToCartAllowed && __typename === 'SimpleProductView' ? '<button class="add-to-cart secondary">Add to Cart</button>' : ''}
+        ${config['details-button'] === 'true' ? `<a href="/products/${urlKey}/${sku}" class="button primary">Details</a>` : ''}
+        ${config['cart-button'] === 'true' && addToCartAllowed && __typename === 'SimpleProductView' ? '<button class="add-to-cart button secondary">Add to Cart</button>' : ''}
       </div>
     </div>
   `);
@@ -139,8 +139,8 @@ function renderProduct(product, config, block) {
 
 export default async function decorate(block) {
   const config = readBlockConfig(block);
-  config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
-  config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
+  config['details-button'] = config['details-button'] || 'false';
+  config['cart-button'] = config['cart-button'] || 'false';
 
   renderPlaceholder(config, block);
 
