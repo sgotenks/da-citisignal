@@ -39,8 +39,8 @@
 }
 
 .teaser-lavazza.bg-none {
-    background: transparent;
-    color: #000;
+  background: transparent;
+  color: #000;
 }
 
 .teaser.bg-secondary a:any-link.teaser-link {
@@ -48,11 +48,11 @@
   color: var(--secondary-color);
 }
 
-.teaser-lavazza.bg-secondary > div:not(.teaser-img-col) {
+.teaser-lavazza.bg-secondary>div:not(.teaser-img-col) {
   color: white;
 }
 
-.teaser-lavazza.bg-none > div:not(.teaser-img-col) {
+.teaser-lavazza.bg-none>div:not(.teaser-img-col) {
   color: #000;
 }
 
@@ -72,7 +72,7 @@
   width: auto;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) {
+.teaser-lavazza>div:not(.teaser-img-col) {
   color: var(--color-neutral-50);
   flex: 1;
   display: flex;
@@ -81,7 +81,7 @@
   gap: 1em;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) > div {
+.teaser-lavazza>div:not(.teaser-img-col)>div {
   box-sizing: border-box;
   padding: inherit;
   display: flex;
@@ -90,7 +90,7 @@
   padding-left: 3em;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) h3 {
+.teaser-lavazza>div:not(.teaser-img-col) h3 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -100,7 +100,7 @@
   width: 100%;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) h3 a {
+.teaser-lavazza>div:not(.teaser-img-col) h3 a {
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -108,7 +108,7 @@
   letter-spacing: inherit;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) p {
+.teaser-lavazza>div:not(.teaser-img-col) p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -125,142 +125,158 @@
 }
 
 .teaser-lavazza a:any-link.button.primary.teaser-link {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .teaser-lavazza a:any-link.button.secondary.teaser-link {
   background-color: unset;
 }
 
-.teaser-lavazza h2{
-    font-family: Graphik, sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+.teaser-lavazza h2 {
+  font-family: Graphik, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 
-.teaser-lavazza > div:not(.teaser-img-col) p{
-    margin: 0;
-    font-family: Graphik, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 8rem;
+.teaser-lavazza>div:not(.teaser-img-col) p {
+  margin: 0;
+  font-family: Graphik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 8rem;
 }
 
-button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
-    background-color: #fff;
-    color: #163052;
+.teaser-lavazza button.button.primary,
+.teaser-lavazza button.button-primary,
+.teaser-lavazza a.button.primary,
+.teaser-lavazza a.button-primary,
+.teaser-lavazza a.button.error-button-home {
+  background-color: #fff;
+  color: #163052;
 }
 
-button.button.primary:hover, button.button-primary:hover, a.button.primary:hover, a.button-primary:hover {
-    background-color: #fff;
-    color: #163052;
+.teaser-lavazza button.button.primary:hover,
+.teaser-lavazza button.button-primary:hover,
+.teaser-lavazza a.button.primary:hover,
+.teaser-lavazza a.button-primary:hover {
+  background-color: #fff;
+  color: #163052;
 }
 
-button.button.primary:active, button.button-primary:active, a.button.primary:active, a.button-primary:active {
-    background-color: #fff;
-    color: #163052;
+.teaser-lavazza button.button.primary:active,
+.teaser-lavazza button.button-primary:active,
+.teaser-lavazza a.button.primary:active,
+.teaser-lavazza a.button-primary:active {
+  background-color: #fff;
+  color: #163052;
 }
 
-.teaser-lavazza > div:not(.teaser-img-col) {
-    position: absolute;
-    left: 0;
+.teaser-lavazza>div:not(.teaser-img-col) {
+  position: absolute;
+  left: 0;
 }
 
-.teaser-lavazza{
-    max-height: inherit;
-    position: relative;
-    background: white;
+.teaser-lavazza {
+  max-height: inherit;
+  position: relative;
+  background: white;
 }
 
 .teaser-lavazza .teaser-img-col:nth-child(1) {
-	    display: block;
-	  }
+  display: block;
+}
 
-	.teaser-lavazza .teaser-img-col:nth-child(2) {
-	    display: none;
-	  }
+.teaser-lavazza .teaser-img-col:nth-child(2) {
+  display: none;
+}
 
-@media (width <= 900px) {
+@media (width <=900px) {
 
-	.teaser-lavazza .teaser-img-col:nth-child(2) {
-	    display: block;
-	  }
+  .teaser-lavazza .teaser-img-col:nth-child(2) {
+    display: block;
+  }
 
-	.teaser-lavazza .teaser-img-col:nth-child(1) {
-	    display: none;
-	  }
-	
+  .teaser-lavazza .teaser-img-col:nth-child(1) {
+    display: none;
+  }
+
   .teaser-lavazza {
     flex-direction: column-reverse;
     max-height: 568px;
   }
+
   .teaser-lavazza .teaser-img-col {
     border-radius: var(--border-radius);
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
-  .teaser-lavazza .teaser-lavazza > div:not(.teaser-img-col) > div {
+
+  .teaser-lavazza .teaser-lavazza>div:not(.teaser-img-col)>div {
     text-align: center;
     padding: 5rem 7rem;
   }
 
 
   .teaser-lavazza {
-        flex-direction: column-reverse;
-        max-height: 1000px;
-        height: inherit;
-	  	max-height: inherit;
-    }
-	
+    flex-direction: column-reverse;
+    max-height: 1000px;
+    height: inherit;
+    max-height: inherit;
+  }
+
   .teaser-img-col img {
-		height: 100%;
-		object-fit: cover;
-		object-position: top;
-		height: inherit;
-	}
-	
-	.teaser-lavazza {
-		display: flex;
-		background: #000;
-		align-items: stretch;
-		max-height: inherit;
-		border-radius: var(--border-radius);
-		margin-top: 2em;
-		margin-bottom: 2em;
-		margin-left: 2em;
-		margin-right: 2em;
-	}
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: inherit;
+  }
 
-    .teaser-lavazza > div:not(.teaser-img-col) {
-        text-align: center;
-    }
+  .teaser-lavazza {
+    display: flex;
+    background: #000;
+    align-items: stretch;
+    max-height: inherit;
+    border-radius: var(--border-radius);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 
-    button.button.primary, button.button-primary, a.button.primary, a.button-primary, a.button.error-button-home {
-        display: inline-block;
-    }
+  .teaser-lavazza>div:not(.teaser-img-col) {
+    text-align: center;
+  }
 
-	.teaser-lavazza h2 {
-	    width: 100%;
-	}
+  button.button.primary,
+  button.button-primary,
+  a.button.primary,
+  a.button-primary,
+  a.button.error-button-home {
+    display: inline-block;
+  }
 
-	.teaser-lavazza > div:not(.teaser-img-col) > div {
-	    padding: inherit;
-	    padding-left: 1em;
-	    padding-right: 1em;
-	}
+  .teaser-lavazza h2 {
+    width: 100%;
+  }
 
-	.teaser-lavazza > div:not(.teaser-img-col) {
-	    gap: inherit;
-	}
+  .teaser-lavazza>div:not(.teaser-img-col)>div {
+    padding: inherit;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 
-	.teaser-lavazza > div:not(.teaser-img-col) p {
-	    margin-bottom: inherit;
-	}
-    
+  .teaser-lavazza>div:not(.teaser-img-col) {
+    gap: inherit;
+  }
+
+  .teaser-lavazza>div:not(.teaser-img-col) p {
+    margin-bottom: inherit;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {

@@ -444,15 +444,15 @@ button {
 }
 
 button.button.primary,
-button.button-primary,
-a.button.primary,
 a.button-primary,
 a.button.error-button-home {
+  background-color: #fff;
+  color: #163052;
+
   display: block;
-  background-color: var(--primary-color);
+  
   font-size: var(--body-font-size-md);
   font-weight: 600;
-  color: var(--color-neutral-50);
   padding: 8px 30px;
   width: fit-content;
   height: auto;
@@ -465,9 +465,7 @@ a.button.error-button-home {
   border-radius: 24px;
 }
 
-button.button.primary:hover,
 button.button-primary:hover,
-a.button.primary:hover,
 a.button-primary:hover {
   background-color: var(--color-brand-600);
   color: #fff;
@@ -475,15 +473,11 @@ a.button-primary:hover {
 }
 
 button.button.primary:active,
-button.button-primary:active,
-a.button.primary:active,
 a.button-primary:active {
   background-color: var(--color-brand-700);
 }
 
 button.button.secondary,
-button.button-secondary,
-a.button.secondary,
 a.button-secondary {
   display: block;
   font-size: var(--body-font-size-md);
