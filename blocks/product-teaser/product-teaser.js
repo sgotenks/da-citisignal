@@ -56,7 +56,7 @@ function renderPlaceholder(config, block) {
       <div class="price"></div>
       <div class="actions">
         ${config['details-button'] === 'true' ? '<a href="#" class="button primary disabled">Details</a>' : ''}
-        ${config['cart-button'] === 'true' ? '<button class="secondary" disabled>Add to Cart</button>' : ''}
+        ${config['cart-button'] === 'true' ? '<button class="button secondary" disabled>Add to Cart</button>' : ''}
       </div>
     </div>
   `));
@@ -112,7 +112,7 @@ function renderProduct(product, config, block) {
       <div class="price">${renderPrice(product, priceFormatter.format)}</div>
       <div class="actions">
         ${config['details-button'] === 'true' ? `<a href="/products/${urlKey}/${sku}" class="button primary">Details</a>` : ''}
-        ${config['cart-button'] === 'true' && addToCartAllowed && __typename === 'SimpleProductView' ? '<button class="add-to-cart secondary">Add to Cart</button>' : ''}
+        ${config['cart-button'] === 'true' && addToCartAllowed && __typename === 'SimpleProductView' ? '<button class="add-to-cart button secondary">Add to Cart</button>' : ''}
       </div>
     </div>
   `);

@@ -39,8 +39,36 @@
   justify-content: center;
 }
 
-.product-teaser .actions .button.primary {
- 
+.product-teaser .actions button.button.primary,
+.product-teaser .actions a.button.primary,
+.product-teaser .actions a.button-primary,
+.product-teaser .actions a.button.error-button-home {
+  background-color: #fff;
+  border: .0625rem solid #163052;
+}
+
+.product-teaser .actions button.button.primary:hover,
+.product-teaser .actions a.button.primary:hover,
+.product-teaser .actions a.button-primary:hover,
+.product-teaser .actions a.button.error-button-home:hover {
+  background-color: #163052;
+  color: #fff;
+}
+
+.product-teaser .actions button.button.secondary,
+.product-teaser .actions a.button.secondary,
+.product-teaser .actions a.button-secondary,
+.product-teaser .actions a.button.error-button-home {
+  background-color: #163052;
+}
+
+.product-teaser .actions button.button.secondary:hover,
+.product-teaser .actions a.button.secondary:hover,
+.product-teaser .actions a.button-secondary:hover,
+.product-teaser .actions a.button.error-button-home:hover {
+  background-color: #fff;
+  color: #163052;
+  border: .0625rem solid #163052;
 }
 
 .product-teaser h1 {
