@@ -195,6 +195,14 @@ main>.section .carousel-wrapper {
 }
 
 
+@media (width <= 1100px) {
+       {
+        .carousel .carousel-slide .carousel-slide-content {
+            --slide-content-width: inherit;
+        } 
+}
+
+
 
 @media (width <= 600px) {
         .carousel .carousel-slides {
