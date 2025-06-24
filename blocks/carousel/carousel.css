@@ -228,5 +228,9 @@ main>.section .carousel-wrapper {
     .carousel .carousel-slide {
         display: block;
     }
-    
+
+    .carousel h2 {
+        font-size: 4rem;
+        padding: 0;
+    }    
 }
