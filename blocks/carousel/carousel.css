@@ -198,7 +198,7 @@ main>.section .carousel-wrapper {
 
 @media (width <= 600px) {
         .carousel .carousel-slides {
-            height: 100vw;
+            height: 135vw;
     }
 
     .carousel .carousel-slide .carousel-slide-content {
@@ -208,7 +208,7 @@ main>.section .carousel-wrapper {
 
     .carousel p {
         font-family: Graphik, sans-serif;
-        padding: 0 var(--spacing-xxlarge);
+        padding: 0;
         text-align: center;
         width: unset;
         /* display: none; */
@@ -222,6 +222,10 @@ main>.section .carousel-wrapper {
         width: max-content;
         font-size: medium;
         line-height: 2.1em;
+    }
+
+    .carousel .carousel-slide {
+        display: block;
     }
     
 }
