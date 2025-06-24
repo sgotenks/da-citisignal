@@ -204,6 +204,7 @@ main>.section .carousel-wrapper {
     .carousel .carousel-slide .carousel-slide-content {
         padding: 0;
         width: 100%;
+        margin: 0;
     }
 
     .carousel p {
