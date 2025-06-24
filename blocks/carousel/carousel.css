@@ -193,3 +193,35 @@ main>.section .carousel-wrapper {
         --slide-content-width: auto;
     }
 }
+
+
+
+@media (width <= 600px) {
+        .carousel .carousel-slides {
+            height: 100vw;
+    }
+
+    .carousel .carousel-slide .carousel-slide-content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .carousel p {
+        font-family: Graphik, sans-serif;
+        padding: 0 var(--spacing-xxlarge);
+        text-align: center;
+        width: unset;
+        /* display: none; */
+    }
+
+    .carousel p.button-container {
+        padding: inherit;
+    }
+
+    .carousel p.button-container a {
+        width: max-content;
+        font-size: medium;
+        line-height: 2.1em;
+    }
+    
+}
