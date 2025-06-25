@@ -98,6 +98,15 @@
           }
         },
         {
+          "title": "Teaser Lavazza Enrichment",
+          "id": "teaser-lavazza-enrichment",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"teaser-lavazza-enrichment\" style=\"background: rgb(0, 0, 0); color: rgb(255, 255, 255);\"><div class=\"wrapper\"><div class=\"teaser-img-col\"><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/png\" srcset=\"\"><img loading=\"lazy\"></picture></div><div class=\"custom-ue-ttext\"></div></div></div>"
+            }  
+          }
+        },
+        {
           "title": "Carousel",
           "id": "carousel",
           "plugins": {
