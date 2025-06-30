@@ -232,7 +232,7 @@
   .teaser-img-col img {
     object-fit: contain;
     object-position: top;
-    max-height: inherit;
+    max-height: inherit!important;
   }
 
   .teaser-lavazza {
