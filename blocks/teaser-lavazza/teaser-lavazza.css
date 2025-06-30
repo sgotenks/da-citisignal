@@ -198,6 +198,7 @@
 
   .teaser-lavazza .teaser-img-col:nth-child(2) {
     display: block;
+      padding: 0;
   }
 
   .teaser-lavazza .teaser-img-col:nth-child(1) {
@@ -229,10 +230,9 @@
   }
 
   .teaser-img-col img {
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: top;
-    height: inherit;
+    max-height: inherit;
   }
 
   .teaser-lavazza {
