@@ -76,6 +76,9 @@
   font: var(--type-headline-1-font);
   letter-spacing: var(--type-headline-1-letter-spacing);
   margin: 0 0 16px;
+font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .product-teaser .price {
@@ -118,4 +121,16 @@
   .product-teaser .actions {
     justify-content: flex-start;
   }
+}
+
+
+
+@media (width <= 600px) {
+    .product-teaser .details {
+        text-align: center;
+    }
+
+    .product-teaser h1 {
+        width: 100%;
+    }
 }
