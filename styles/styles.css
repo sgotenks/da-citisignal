@@ -13,7 +13,7 @@
  */
 
  :root {
-  --primary-color: #8821f4;
+  --primary-color: #650dc3;
   --secondary-color: #3C1268;
   --black-brand-500: #454545;
   --button-radius: 12px;
@@ -44,10 +44,10 @@
   --heading-font-size-xxl: 40px;
 
   /* Elsie base design */
-  --color-brand-300: #BD5CFE;
-  --color-brand-500: #8821f4;
-  --color-brand-600: #7b1cdf;
-  --color-brand-700: #6d17c9;
+  --color-brand-300: #cbc3d0;
+  --color-brand-500: #928b9a;
+  --color-brand-600: #635f68;
+  --color-brand-700: #4b484f;
   --color-black-100: #000;
   --color-black-200: #202020;
   --color-neutral-50: #fff;

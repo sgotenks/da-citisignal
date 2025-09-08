@@ -99,7 +99,7 @@ header nav a:any-link {
     line-height: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: #163052;
+    color: #4d4e51;
 }
 
 /* hamburger */
@@ -551,7 +551,7 @@ header .header > .default-content-wrapper {
   padding: 0 1rem;
   gap: 2rem;
   box-sizing: border-box;
-background-color: #163052 !important;
+background-color: #b9b9b9 !important;
 }
 
 header .header .dropdown-wrapper button {
