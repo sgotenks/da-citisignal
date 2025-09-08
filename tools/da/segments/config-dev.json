@@ -13,11 +13,11 @@
       },
       {
         "key": "commerce.headers.cs.Magento-Store-Code",
-        "value": "lavazza_store"
+        "value": "stella_store"
       },
       {
         "key": "commerce.headers.cs.Magento-Store-View-Code",
-        "value": "lavazza_eng"
+        "value": "stella_ita_store_view"
       },
       {
         "key": "commerce.headers.cs.Magento-Website-Code",
@@ -45,15 +45,15 @@
       },
       {
         "key": "commerce-root-category-id",
-        "value": "2"
+        "value": "14"
       },
       {
         "key": "commerce-store-id",
-        "value": "1"
+        "value": "4"
       },
       {
         "key": "commerce-store-name",
-        "value": "Main Website Store"
+        "value": "STELLA"
       },
       {
         "key": "commerce-store-url",
@@ -61,11 +61,11 @@
       },
       {
         "key": "commerce-store-view-id",
-        "value": "1"
+        "value": "6"
       },
       {
         "key": "commerce-store-view-name",
-        "value": "lavazza_eng"
+        "value": "Italian"
       },
       {
         "key": "commerce-website-id",
