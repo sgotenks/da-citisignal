@@ -44,7 +44,8 @@
     "id": "columns-cell",
     "components": [
       "text",
-      "image"
+      "image",
+      "product-teaser"
     ]
   }
 ]
