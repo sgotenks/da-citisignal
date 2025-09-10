@@ -28,12 +28,12 @@
   --type-base-font-family: 'open-sans', sans-serif;
 
   /* body sizes */
-  --body-font-size-xxs: 10px;
-  --body-font-size-xs: 12px;
-  --body-font-size-s: 14px;
-  --body-font-size-md: 16px;
-  --body-font-size-lg: 20px;
-  --body-font-size-xl: 24px;
+  --body-font-size-xxs: 8px;
+  --body-font-size-xs: 10px;
+  --body-font-size-s: 12px;
+  --body-font-size-md: 14px;
+  --body-font-size-lg: 16px;
+  --body-font-size-xl: 20px;
 
   /* heading sizes */
   --heading-font-size-xs: 18px;
